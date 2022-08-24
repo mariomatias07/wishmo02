@@ -1,0 +1,865 @@
+:root{
+    --glory: 'Glory', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #f6f9ff;
+}
+
+    .container{
+        max-width: 1184px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bar {
+        background-color: white;
+        position: fixed;
+        width: 100%;
+    }
+    .hamburger-1 {
+        display: none;
+    }
+    .header_part{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .bar ul a{
+        text-decoration: none;
+    }
+    .menu {
+        list-style-type: none;
+        display: inline-flex;
+        margin-left: 30px;
+        padding: 0;
+    }
+    .menu ul {
+        display: inline-flex;
+        list-style: none;
+        margin-left: 20px;
+    }
+    .menu li a{
+        font-family: var(--glory);
+        text-decoration: none;
+        margin-left: 50px;
+        text-align: center;
+        font-weight: normal;
+        color: #808080;
+    }
+    .descarca-top {
+        -webkit-border-radius: 11px;
+        -moz-border-radius: 11px;
+        border-radius: 11px;
+        font-family: var(--glory);
+        text-decoration: none;
+        text-align: center;
+        color: #FFF !important;
+        background-color: #3861E9;
+        padding: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    /* HEADER END */
+
+    .wishmo_phones {
+        background-image: url('../images/backgroundww.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 900px;
+    }
+    .wishmo_phones_int {
+        display:flex;
+    }
+    .wishmo_phones .col_left{
+        padding-top: 150px;
+    }
+    .wishmo_phones section h1{
+        font-weight: bold;
+        text-align: left;
+        color: #F8F8F8;
+        font-size: 50px;
+        font-family: var(--glory);
+    }
+    .wishmo_phones section h2{
+        text-align: left;
+        font-size: 38px;
+        color: #F8F8F8;
+        font-weight: normal;
+        font-family:var(--glory);
+    }
+    .wishmo_phones section strong{
+        font-size: 50px;
+    }
+    .wishmo_phones button{
+        text-decoration: none;
+        list-style: none;
+        font-size: 16px;
+        font-family:var(--glory);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        border: none;
+        color: #3861E9;
+        background-color: white;
+        padding: 10px 35px 10px 35px;
+    }
+    .wishmo_phones button img{
+        height: 22px;
+        margin-left: 10px;
+    }
+    .wishmo_phones .col_right{
+       padding-top: 150px;
+    }
+
+    /* WHISHMO PHONES END */
+
+    .about_wishmo h1{
+        text-align: center;
+        color: #E93876;
+        margin-top: 35px;
+        font-family: var(--glory);
+        font-size: 45px;
+        font-weight: Bold;
+
+    }
+    .box {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .infos {
+        display:flex;
+        flex-direction: row;
+    }
+    .infos .alarm {
+        background-color: #E93876;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 16px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 8%;
+        color: white;
+        font-weight: normal;
+        font-family: var(--poppins);
+        margin: 10px;
+    }
+    .infos .alarm img{
+        margin-bottom: 15px;
+    }
+    .infos .phone {
+        background-color: #E93876;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 16px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 8%;
+        color: white;
+        font-weight: normal;
+        font-family: var(--poppins);
+        margin: 10px;
+    }
+    .infos .phone img{
+        margin-bottom: 15px;
+    }
+    .infos .trophy {
+        background-color: #E93876;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 16px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 8%;
+        color: white;
+        font-weight: normal;
+        font-family: var(--poppins);
+        margin: 10px;
+    }
+    .infos .trophy img{
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT WHISHMO END */
+
+    .video {
+    margin-left: 28px;
+    margin-top: 91px;
+    margin-bottom: 91px;
+    }
+    .video img{
+        width: 900px;
+    }
+
+    /* VIDEO END */
+
+    .why_whismo h1{
+    text-align: center;
+    color: #E93876;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: var(--glory);
+    }
+    .fish {
+        display: flex;
+        font-family: var(--poppins);
+    }
+    .fish img{
+        margin-top: 22px;
+    }
+    .fish h1{
+        text-align: left;
+        font-size: 25px;
+        color: #3861E9;
+        font-family: var(--poppins);
+    }
+    .fish p {
+        font-size: 16px;
+        font-family: var(--poppins);
+        text-align: left;
+        color: #1F1F1F;
+        font-weight: normal;
+    }
+    .fishy {
+        display: flex;
+        font-family: var(--poppins);
+    }
+    .fishy img{
+        margin-top: 22px;
+    }
+    .fishy h1{
+        text-align: left;
+        font-size: 25px;
+        color: #3861E9;
+        font-family: var(--poppins);
+    }
+    .fishy p {
+        font-size: 16px;
+        font-family: var(--poppins);
+        text-align: left;
+        color: #1F1F1F;
+        font-weight: normal;
+    }
+    .notifications {
+        display: flex;
+        font-family: var(--poppins);
+    }
+    .notifications img{
+        margin-top: 22px;
+    }
+    .notifications h1{
+        text-align: left;
+        font-size: 25px;
+        color: #3861E9;
+        font-family: var(--poppins);
+    }
+    .notifications p {
+        font-size: 16px;
+        font-family: var(--poppins);
+        text-align: left;
+        color: #1F1F1F;
+        font-weight: normal;
+    }
+    .number1 {
+        display: flex;
+        font-family: var(--poppins);
+    }
+    .number1 img{
+        margin-top: 22px;
+    }
+    .number1 h1{
+        text-align: left;
+        font-size: 25px;
+        color: #3861E9;
+        font-family: var(--poppins);
+    }
+    .number1 p {
+        font-size: 16px;
+        font-family: var(--poppins);
+        text-align: left;
+        color: #1F1F1F;
+        font-weight: normal;
+    }
+    .list {
+        display: flex;
+        font-family: var(--poppins);
+    }
+    .list img{
+        margin-top: 22px;
+    }
+    .list h1{
+        text-align: left;
+        font-size: 25px;
+        color: #3861E9;
+        font-family: var(--poppins);
+    }
+    .list p {
+        font-size:16px;
+        font-family: var(--poppins);
+        text-align: left;
+        color: #1F1F1F;
+        font-weight: normal;
+    }
+    .favorite {
+        display: flex;
+        font-family: var(--poppins);
+    }
+    .favorite img{
+        margin-top: 22px;
+    }
+    .favorite h1{
+        text-align: left;
+        font-size: 25px;
+        color: #3861E9;
+        font-family: var(--poppins);
+    }
+    .favorite p {
+        font-size:16px;
+        font-family: var(--poppins);
+        text-align: left;
+        color: #1F1F1F;
+        font-weight: normal;
+    }
+
+    /* WHY WHISHMO END */
+
+    .wishmo_work {
+    background-image: url('../images/background2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    height: 880px;
+    }
+    .wishmo_work h1{
+        text-align: center;
+        color: white;
+        font-family: var(--glory);
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .wishmo_work h2{
+        color: white;
+        font-family: var(--poppins);
+        font-weight: medium;
+        font-size: 22px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .col1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone1 p{
+        text-align: center;
+        color: white;
+        font-family: var(--poppins);
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .phone2 p{
+        color: white;
+        text-align: center;
+        font-family: var(--poppins);
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .phone3 p{
+        color: white;
+        text-align: center;
+        font-family: var(--poppins);
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .col2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone4 p{
+        color: white;
+        text-align: center;
+        font-family: var(--poppins);
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .phone5 p{
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        font-family: var(--poppins);
+        margin-top: -20px;
+    }
+    .phone6 p{
+        color: white;
+        text-align: center;
+        font-family: var(--poppins);
+        font-size: 16px;
+        margin-top: -20px;
+    }
+
+    /* WHISHMO WORK END*/
+
+
+    .campaigns h1{
+        color: #E93876;
+        text-align: center;
+        margin-top: -20px;
+        font-size: 45px;
+        font-family: var(--glory);
+        font-weight: bold;
+    }
+    .campaigns p {
+        font-family: var(--poppins);
+        color: black;
+        font-weight: normal;
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .advertisements{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .advertisements1 {
+        background-color: #FFFFFF;
+        margin: 15px;
+        border-radius: 10px; 
+    }
+    .advertisements1 img{
+        margin: 15px;
+        margin-right: 20px;
+    }
+    .advertisements1 h1{
+        text-align: left;
+        color: black;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements1 h2{
+        margin-top: -10px;
+        margin-left: 15px;
+        text-align: left;
+        color: #8890A6;
+        font-weight: normal;
+        font-size: 13px;
+        font-family: var(--glory);
+    }
+    .advertisements1 img{
+        float: right;
+    }
+    .advertisements1 p{
+        margin-left: 15px;
+        color: #5D5D5D;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements1 a{
+        text-decoration: none;
+        color: #3861E9;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements2 {
+        background-color: #FFFFFF;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .advertisements2 img{
+        margin: 15px;
+        margin-right: 20px;
+    }
+    .advertisements2 h1{
+        text-align: left;
+        color: black;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements2 h2{
+        margin-top: -10px;
+        margin-left: 15px;
+        text-align: left;
+        color: #8890A6;
+        font-weight: normal;
+        font-size: 13px;
+        font-family: var(--glory);
+    }
+    .advertisements2 img{
+        float: right;
+    }
+    .advertisements2 p{
+        margin-left: 15px;
+        color: #5D5D5D;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements2 a{
+        text-decoration: none;
+        color: #3861E9;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements3 {
+        background-color: #FFFFFF;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .advertisements3 img{
+        margin: 15px;
+        margin-right: 20px;
+    }
+    .advertisements3 h1{
+        text-align: left;
+        color: black;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements3 h2{
+        margin-top: -10px;
+        margin-left: 15px;
+        text-align: left;
+        color: #8890A6;
+        font-weight: normal;
+        font-size: 13px;
+        font-family: var(--glory);
+    }
+    .advertisements3 img{
+        float: right;
+    }
+    .advertisements3 p{
+        margin-left: 15px;
+        color: #5D5D5D;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements3 a{
+        text-decoration: none;
+        color: #3861E9;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements4 {
+        background-color: #FFFFFF;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .advertisements4 img{
+        margin: 15px;
+        margin-right: 20px;
+    }
+    .advertisements4 h1{
+        text-align: left;
+        color: black;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements4 h2{
+        margin-top: -10px;
+        margin-left: 15px;
+        text-align: left;
+        color: #8890A6;
+        font-weight: normal;
+        font-size: 13px;
+        font-family: var(--glory);
+    }
+    .advertisements4 img{
+        float: right;
+    }
+    .advertisements4 p{
+        margin-left: 15px;
+        color: #5D5D5D;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+    .advertisements4 a{
+        text-decoration: none;
+        color: #3861E9;
+        font-size: 15px;
+        font-family: var(--glory);
+    }
+
+    /* CAMPAIGNS END*/
+
+    .download {
+        background-color: #F25189;
+        height: 380px;
+        width: 1200px;
+        margin: auto;
+        -webkit-border-top-left-radius: 20px;
+        -webkit-border-top-right-radius: 20px;
+        -moz-border-radius-topleft: 20px;
+        -moz-border-radius-topright: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .download h1{
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: medium;
+        font-size: 30px;
+        font-family: var(--poppins);
+        padding-top: 50px;
+    }
+    .download  button img{
+        background-color: #F25189;
+    }
+    .all_a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .a1{
+        margin: 30px;
+    }
+    .a2{
+        margin: 30px;
+    }
+    .a3{
+        margin: 30px;
+    }
+
+    /*DOWNLOAD END*/
+
+    .footer {
+        width: 100%;
+        height: 96px;
+        background-color: white;
+        margin-top: -50px;
+    }
+    .footer h1{
+        display: inline-flex;
+        font-size: 14px;
+        color: #293151;
+        font-family: var(--poppins);
+        font-weight: normal;
+        margin-left: 360px;
+    }
+    .footer h2{
+        display: inline-flex;
+        font-size: 14px;
+        color: #293151;
+        font-family: var(--poppins);
+        font-weight: normal;
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+    .imagini {
+        display: inline-flex;
+    }
+
+    /*FOOTER END*/
+
+
+    /* Mobile */
+
+@media (max-width: 700px) {
+    .box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .logo img{
+
+    }
+    .navbar{ 
+        display: none;
+    }
+    .navbar.open{
+        display: block;
+        margin-top: 213px;
+        justify-content: center;
+        background-color: blue;
+        position: absolute;
+        width: 385px;
+        margin-left: -20px;
+    }
+    .navbar.open .menu li a{
+        color: white;
+        padding-right: 100px;
+    }
+     .navbar.open .menu li .descarca-top{
+        color: white;
+        background-color: blue;
+        padding: 0;
+        margin: 0;
+        margin-right: 45px;
+    }
+    .navbar.open .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hamburger-1{
+        display: block;
+        margin-left: 80px;
+        height: 20px;
+    }
+
+    /* HEADER END */
+
+    .wishmo_phones {
+        background-size: cover;
+    }
+    .wishmo_phones_int {
+        display: flex;
+        flex-direction: column;
+    }
+    .col_left {
+        width: 100% !important;
+    }
+    .col_right {
+    }
+    .col_right img {
+        width: 300px;
+        margin-top: -170px;
+    }
+
+    /* WHISHMO PHONES END */
+
+    .infos {
+    display:flex;
+    flex-direction: column;
+    }
+
+    /* INFOS END */
+
+    .video{
+     margin: 0;
+    }
+    .video img{
+        width: 350px;
+        height: 320px;
+    }
+
+    /* VIDEO END */
+
+    .cols br{
+        display: none;
+    }
+    .resize {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding:  0;
+    }
+    .resize img{
+        margin-top: -40px;
+    }
+    .resize h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: -20px;
+    }
+    .resize p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    /* WHY WHISMO END */
+    .wishmo_work {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0 1750px 0;
+    margin-top: -250px;
+    }
+    .col1{
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+       padding: 0;
+    }
+    .col2{
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+       padding: 0;
+    }
+
+    /*WHISHMO WORK END*/
+    .campaigns {
+        margin-top: -200px;
+    }
+    .advertisements {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CAMPAIGNS END*/
+    .download{
+        width: 365px;
+        height: 560px;
+    }
+    .all_a{
+        display: flex;
+        flex-direction: column;
+    }
+    .a1{
+        margin: 15px;
+    }
+    .a2{
+        margin: 15px;
+    }
+    .a3{
+        margin: 15px;
+    }
+
+    /*DOWNLOAD END*/
+
+    .footer {
+        width: 365px;
+        height: 200px;
+    }
+    .footer_edit {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer h1 {
+        margin: 0;
+        margin-top: -50px;
+    }
+    .footer h2{
+        margin: 0;
+        margin-top: 40px;
+    }
+    .imagini {
+        margin-top: 30px;
+    }
+    .imagini img{
+        margin: 7px;
+    }
+    /*FOOTER END*/
+
+
+}
